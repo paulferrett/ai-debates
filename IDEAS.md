@@ -1,8 +1,8 @@
 # Debate Machine - Future Ideas
 
-## Terminal UI - Live Debate Experience
+## ✅ Terminal UI - Live Debate Experience (IMPLEMENTED)
 
-Build a rich terminal app with:
+See `debate_live.py` - rich terminal app with:
 - **Split screen view** - Agent A on left, Agent B on right
 - **Live streaming** - Watch arguments being generated in real-time
 - **Animated thinking indicators** - Show when each side is "thinking"
@@ -15,9 +15,9 @@ Libraries to consider:
 - `rich` - For styled output and live updates
 - `blessed` / `curses` - Lower-level terminal control
 
-## Post-Debate Analysis & Scoring
+## ✅ Post-Debate Analysis & Scoring (IMPLEMENTED)
 
-After each debate, generate:
+See `analyze.py` - generates after each debate:
 
 ### Argument Quality Scores
 - **Logical coherence** (0-100)
